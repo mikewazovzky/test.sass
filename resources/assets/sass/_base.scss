@@ -1,0 +1,17 @@
+body {
+    background-color: $offwhite;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: $headline-color;  
+    font-family: $font-highlighted;
+    margin: 0 10px;
+}
+
+p {
+    font-family: $font-main;
+    margin: 0 10px;    
+}
+.container {
+
+}

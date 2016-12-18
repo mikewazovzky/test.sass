@@ -1,41 +1,47 @@
-// Fonts
-@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
-
 // Variables
-@import "bs_variables";
 @import "my_variables";
 
+// Normilize.css
+@import "normilize";
+
 // Bootstrap
-@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+//@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
 
-// Custom styles 
-// Imported Fonts
-@import url('https://fonts.googleapis.com/css?family=Josefin+Slab|Merriweather+Sans|Oswald|Roboto+Slab');
-// font-family: 'Roboto Slab', serif;
-// font-family: 'Merriweather Sans', sans-serif;
-// font-family: 'Josefin Slab', serif;
-// font-family: 'Oswald', sans-serif;
+// Custom Styles
+@import "mixins";
+@import "base";
+@import "interface";
 
-$headline-color:    $green;
-$text-color:        $purple;
+@import "modules/team";
+@import "modules/backgrounds";
 
-$font-main:         'Oswald', sans-serif;
-$font-highlighted:  'Oswald', sans-serif;
 
-h1, h2, h3, h4, h5, h6 {
-    color: $headline-color;  
-    font-family: $font-highlighted;
-}
 
-p {
-    color: $text-color;
-    font-family: $font-main;
-}
 
-h1 {
-    color: $headline-color;
-    font-family: $font-highlighted;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
